@@ -1,8 +1,11 @@
-MeghaHostel is a web application which provides a services for both students who's looking for the Hostel and the Owner of the Hostel. This application it was meant only for the Hostel located in Meghalaya. The Hostel which is located in Meghalaya can Register Under It and the Students who's looking for the Hostel in Meghalaya they can search by the name of the Hostel(If they Knew) or by the Address/City of their Institute(like Shillong, Jowai and Tura). The Students can Book the Room/ Seat Online/ Offline but before booking the room, student needs to register first.
+# MeghaHostel
+
+- MeghaHostel is a PHP based web application which provides a service for both students and hostel owners of Meghalaya.
+- Hostels which are located in Meghalaya can sign up and students who's looking for hostels in Meghalaya can search by the name of the Hostel or by the Address/City of their Institute(like Shillong, Jowai and Tura).
+- The students can book the Room/Seat Online/Offline however before booking the room, student needs to register first.
 
 
-Some of the Pages ...form User Sides..
-
+Some of the pages for the students:
 
 ![Screenshot (65)](https://user-images.githubusercontent.com/54466232/206966625-8f149eb7-f4f5-4c09-9ed5-206fc1bcabde.png)
 ![Screenshot (66)](https://user-images.githubusercontent.com/54466232/206966636-0825a7e6-f6e1-40b6-a1a5-051bc7625c68.png)
@@ -17,7 +20,7 @@ Some of the Pages ...form User Sides..
 
 
 
-Some pages from Hostel's Owner sides....
+Some of the pages for the Hostel Owners: 
 
 
 ![Screenshot (76)](https://user-images.githubusercontent.com/54466232/206967474-9e48b6d3-ac9c-49e4-9ab5-cb54712739ee.png)
