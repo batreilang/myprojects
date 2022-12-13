@@ -8,18 +8,16 @@
 
 
 Some pages from User Side..
-User Register/lohin page..
+User Register/login page..
 
 ![user_reg](https://user-images.githubusercontent.com/54466232/207372137-75d27c9b-0d1b-47fd-a21c-fdcd66a044b2.png)
 
 ![user_log](https://user-images.githubusercontent.com/54466232/207372183-892b79b6-9c4f-48b7-a893-19cdf196601d.png)
 
-User Home page after register successfull or user logged in
+User Home page after register successfull or successfull logged in
+![homepage2](https://user-images.githubusercontent.com/54466232/207379543-29d04a71-296e-4fc1-b353-d52c0bea7d80.png)
 
 
-![homepage1](https://user-images.githubusercontent.com/54466232/207372379-e7c1068b-8b82-4056-8504-484acbf6f37e.png)
-![homepage2](https://user-images.githubusercontent.com/54466232/207372413-4890d376-49d5-41ec-bb3e-8c6a0f10550c.png)
-![homepage3](https://user-images.githubusercontent.com/54466232/207372449-a568db8f-21ff-4b63-b0a9-0c5f1a5c7a36.png)
 
 Details of the Hostel when user selected
 ![viewdetails1](https://user-images.githubusercontent.com/54466232/207372522-a735b6ca-2676-4c47-b627-c3db85b197a4.png)
@@ -28,12 +26,11 @@ Details of the Hostel when user selected
 
 When user want to book the Hostel..
 He/She need to fill the Hostel Form first provided by the Hostel..
-Some of the pages below will show if the user havent filled the Hostel Form yet or first time here..
 ![student_reg1](https://user-images.githubusercontent.com/54466232/207373408-cc9e974e-6f2b-4735-ab44-048ab87f93cf.png)
 ![student_reg2](https://user-images.githubusercontent.com/54466232/207373468-0836f1ad-fcc5-4ce0-bfad-24c35d7cc069.png)
 
 
-Some of the pages below will show if the user already filled the Hostel Form ..
+ if the user already filled the Hostel Form ..
 ![student_register1](https://user-images.githubusercontent.com/54466232/207374172-6db84d50-9f41-4d5a-9574-22b720c44327.png)
 ![student_register2](https://user-images.githubusercontent.com/54466232/207374196-a2cc5d1d-6ff6-4b38-9dd1-a45b2f22f0eb.png)
 
@@ -59,5 +56,28 @@ Hostel addmission fees:UPI
 ![status_online1](https://user-images.githubusercontent.com/54466232/207378186-1505a20e-5dcc-45d5-9294-3f04b9b8d1b1.png)
 ![status_online2](https://user-images.githubusercontent.com/54466232/207378225-2f28784d-8221-4ed6-aed8-92516f25e586.png)
 
+Some pages from Hostel's Owner  Side..
+User Register/login page..
+![hostel_owner_reg](https://user-images.githubusercontent.com/54466232/207380841-2b110f90-db74-447f-b440-8f14a6cccfc7.png)
 
+
+ Hostel's Owner Home page after register successfull or successfull logged in
+
+The  Owner  of the Hostel can register two or more Hostels
+Hostel Register pages......
+![owner_dashboard_add1](https://user-images.githubusercontent.com/54466232/207382034-dd5a24fa-e95d-4479-9e64-f277e6cee944.png)
+![owner_dashboard_add2](https://user-images.githubusercontent.com/54466232/207382059-c1111f5c-b3d9-417e-a6b2-fabc67f2349a.png)
+![owner_dashboard_add3](https://user-images.githubusercontent.com/54466232/207382095-ccf40867-70b3-4a8d-b3d4-b5ba830c42db.png)
+![owner_dashboard_gallery](https://user-images.githubusercontent.com/54466232/207382162-71fc6196-3a97-4613-9db8-132e6e616e98.png)
+![owner_dashboard_facilities](https://user-images.githubusercontent.com/54466232/207382200-4cf27a79-f5f7-42d7-84a7-46345788a585.png)
+![owner_dasjboard_rule](https://user-images.githubusercontent.com/54466232/207382218-2773dd59-2b89-4532-95c9-fe7a1677f899.png)
+
+The Hostel's Owner Dashboard.
+No responses from students...
+![owner_dasjboard_empty_respone](https://user-images.githubusercontent.com/54466232/207382510-e51d2ba7-e701-48c6-b048-a51541ada314.png)
+
+
+The responses from students..
+![owner_dashboard_don1](https://user-images.githubusercontent.com/54466232/207383060-4a3a9aa5-ec86-4070-b6c1-807b1c70c9bd.png)
+![owner_dashboard_don2](https://user-images.githubusercontent.com/54466232/207383105-2d7b0355-785a-4b1e-977a-434f9018c165.png)
 
