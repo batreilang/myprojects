@@ -5,6 +5,7 @@ session_start();
 
 if($_SESSION['email'])
 {
+   //$_SESSION['student_id']=$student_id;
   $user_email=$_SESSION['email'];
   $student_id=$_SESSION['student_id'];
   $hostel_id=$_SESSION['hostel_id'];
@@ -472,27 +473,7 @@ div.wrapper
                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<span style="text-align:center;color: red;">Offline payment for Hostel Addmission Fees  is to be made directly at the Hostel Office. We will give you only 10 days to pay the hostel addmission fees after you booked the seat otherwise we will cancell your seat..</span>
                     </div>
                      <?php
-                       $status=0;
-                        /* check if the user already placeed the payment for hostel addmission or not*/
-                        $ch="SELECT * from payment where hostel_id=$hostel_id and student_id=$student_id;";
-                        $re12=($con->query($ch));
-                        $check=mysqli_num_rows($re12);
-                        if($check>0)
-                        {
-                            echo '<input type="submit" value="Cancel" name="cancel"  id="sub" style="background-color:transparent;color:green;font-size:16px">';
-                        }
-                        if(isset($_POST['cancel']))
-                        {
-                          $d="DELETE  from payment where hostel_id=$hostel_id and student_id=$student_id;";
-                          $dr=($con->query($d));
-                          if($dr)
-                          {
-                             echo '<script>window.location.href="final_booking.php";</script>';
-
-                          }
-
-                        }
-
+                      
                         ?>
                        
             </div>
@@ -539,15 +520,15 @@ div.wrapper
               $payment_type='By Cash';
               $status=0;
               /* check if the user already placeed the payment for hostel addmission or not*/
-              $ch="SELECT * from payment where hostel_id=$hostel_id and student_id=$student_id;";
-              $re12=($con->query($ch));
-              $check=mysqli_num_rows($re12);
+             $ch="SELECT * from payment where hostel_id=$hostel_id and student_id=$student_id;";
+             $re12=($con->query($ch));
+             $check=mysqli_num_rows($re12);
               if($check>0)
               {
-                  echo '<script>alert("You already booked the seat...");
-                  window.location.href="user_page1.php";</script>';
-              }
-              else
+                 echo '<script>//alert("You already booked the seat...");
+                 window.location.href="user_page1.php";</script>';
+             }
+             else
               {
                 $inORout=1;
                 $s="INSERT into payment(payment_method,hostel_addmission_fees,student_id,hostel_id,book_id,status_fees,owner_id,inORout) 
@@ -564,6 +545,7 @@ div.wrapper
                 else
                 {
                   echo '<script>alert("query failed");</script>';
+                  //echo $student_id;
                   error_reporting(0);
 
                 }
@@ -575,15 +557,15 @@ div.wrapper
               $payment_type='Online payment';
               $status=1;
                /* check if the user already placeed the payment for hostel addmission or not*/
-              $ch="SELECT * from payment where hostel_id=$hostel_id and student_id=$student_id;";
+             $ch="SELECT * from payment where hostel_id=$hostel_id and student_id=$student_id;";
               $re12=($con->query($ch));
               $check=mysqli_num_rows($re12);
               if($check>0)
-              {
+             {
                   echo '<script>alert("You already booked the seat...");
-                  window.location.href="user_page1.php";</script>';
-              }
-              else
+                 window.location.href="user_page1.php";</script>';
+             }
+             else
               {
                 $inORout=11;
                 $s="INSERT into payment(payment_method,reference_no,hostel_addmission_fees,student_id,hostel_id,book_id,status_fees,owner_id,inORout) 
