@@ -499,7 +499,7 @@ div.wrapper
             $student_mother=$row1['student_mother'];
             $student_parent_contact=$row1['student_parent_contact'];
             $student_id=$row1['student_id'];
-            $_SESSION['student_id']=$student_id;
+         //   $_SESSION['student_id']=$student_id;
             $passport_size=$row1['passport_size'];
 
           }
