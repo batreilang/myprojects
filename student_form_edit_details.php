@@ -5,6 +5,7 @@ include"connection.php";
     $user_email=$_SESSION['email'];
     $user_id=$_SESSION['user_id'];
     $owner_id=$_SESSION['owner_id'];
+    $student_id_$_SESSION['student_id'];
 
    
 
@@ -111,7 +112,8 @@ include"connection.php";
     $check=mysqli_num_rows($sq);
     if($check>0)
     {
-      echo '<script>alert("You already booked the this Hostel");</script>';
+      echo '<script>alert("You already booked the this Hostel");
+      window.location.href="final_booking.php";</script>';
     }
     else
     {
@@ -121,6 +123,7 @@ include"connection.php";
       $r4=($con->query($q4));
       if($r4)
       {
+        $_SESSION['student_id']=$student_id;
         echo '<script>window.location.href="final_booking.php";</script>';
       }
       else
