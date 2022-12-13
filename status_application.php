@@ -538,7 +538,7 @@ p.ppp
 
         ?>
         <?php
-          $sq="SELECT * from book, payment where book.book_id=payment.book_id; ";
+          $sq="SELECT * from  payment where student_id=$student_id ; ";
           $re=($con->query($sq));
           if($re)
           {
@@ -548,7 +548,7 @@ p.ppp
 
               $student_id=$row['student_id'];
               $hostel_id=$row['hostel_id'];
-              $user_id=$row['user_id'];
+            //  $user_id=$row['user_id'];
               $payment_type=$row['payment_method'];
               $reference_no=$row['reference_no'];
               $hostel_admission_fees=$row['hostel_addmission_fees'];
