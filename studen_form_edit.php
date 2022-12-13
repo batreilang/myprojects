@@ -372,6 +372,8 @@ ul.footer li
                     $student_course=$row1['student_course'];
                     $student_father=$row1['student_father'];
                     $student_mother=$row1['student_mother'];
+                    $student_id=$row1['student_id'];
+                     $_SESSION['student_id']=$student_id;
                     $student_parent_contact=$row1['student_parent_contact'];
                     $passport=$row1['passport_size'];
 
