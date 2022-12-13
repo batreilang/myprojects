@@ -56,8 +56,12 @@ Hostel addmission fees:UPI
 ![status_online1](https://user-images.githubusercontent.com/54466232/207378186-1505a20e-5dcc-45d5-9294-3f04b9b8d1b1.png)
 ![status_online2](https://user-images.githubusercontent.com/54466232/207378225-2f28784d-8221-4ed6-aed8-92516f25e586.png)
 
+View Status Application..
+![apll](https://user-images.githubusercontent.com/54466232/207384422-760ffb68-7f2e-4e8a-97c9-edebebc8618f.png)
+
+
 Some pages from Hostel's Owner  Side..
-User Register/login page..
+Hostel's Owner Register/login page..
 ![hostel_owner_reg](https://user-images.githubusercontent.com/54466232/207380841-2b110f90-db74-447f-b440-8f14a6cccfc7.png)
 
 
